@@ -3,7 +3,7 @@
 # Author: Lucas Avanço
 
 # use lib => for pre-processing UGCNormal module
-use lib "$ENV{HOME}/ugc_norm/speller";
+use lib "$ENV{HOME}/speller";
 # use lib => run Speller
 #use lib ".";
 use Data::Dumper;
