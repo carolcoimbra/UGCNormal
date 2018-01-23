@@ -347,12 +347,12 @@ sub spell_check {
 }
 
 sub expand_lexicon {
-    $siglas_lexicon_file = "$ENV{PWD}/resources/lexico_siglas.txt";
-    $int_lexicon_file = "$ENV{PWD}/resources/lexico_internetes.txt";
-    $int_sigl_lexicon_file = "$ENV{PWD}/resources/lexico_internetes_sigl_abrv.txt";
-    $np_lexicon_file = "$ENV{PWD}/resources/lexico_nome_proprio.txt";
-    $estr_lexicon_file = "$ENV{PWD}/resources/lexico_estrangeirismo.txt";
-    $medidas_lexicon_file = "$ENV{PWD}/resources/lexico_unidade_medida.txt";
+    $siglas_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_siglas.txt";
+    $int_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_internetes.txt";
+    $int_sigl_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_internetes_sigl_abrv.txt";
+    $np_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_nome_proprio.txt";
+    $estr_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_estrangeirismo.txt";
+    $medidas_lexicon_file = "$ENV{UGCNORMAL}/resources/lexico_unidade_medida.txt";
     open SIGLAS, $siglas_lexicon_file or die $!;
     open INT, $int_lexicon_file or die $!;
     open INT_SIGL, $int_sigl_lexicon_file or die $!;
