@@ -423,7 +423,7 @@ sub expand_lexicon {
 
 # remove some rare words related to diacritic (varias - várias, etc.)
 sub clean_lexicon {
-    $blacklist = "$ENV{PWD}/resources/blacklist_gemeas.txt";
+    $blacklist = "$ENV{UGCNORMAL}/resources/blacklist_gemeas.txt";
 	open BLACKLIST, $blacklist or die $!;
 	chomp(@blacklist_words = <BLACKLIST>);
 	foreach $w (@blacklist_words) {
