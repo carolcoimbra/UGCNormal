@@ -3,9 +3,7 @@
 # Author: Lucas Avanço
 
 # use lib => for pre-processing UGCNormal module
-use lib "$ENV{HOME}";
-# use lib => run Speller
-#use lib ".";
+use lib "$ENV{UGCNORMAL}";
 use Data::Dumper;
 use Encode qw / encode decode /;
 use soundex qw / do_soundex /;
