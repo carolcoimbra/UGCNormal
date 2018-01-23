@@ -7,8 +7,8 @@ then
 fi
 
 # Configuracao
-TOKENIZER=$PWD/tokenizer/webtok
-SPELLER_DIR=$PWD/speller
+TOKENIZER=$UGCNORMAL/tokenizer/webtok
+SPELLER_DIR=$UGCNORMAL/speller
 SPELLER_ARGS=
 INPUT_DIR=$1
 OUTPUT_DIR=$2
